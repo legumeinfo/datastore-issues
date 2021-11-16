@@ -5,3 +5,8 @@ scientific_name_abbrev, license, publication_title, taxid, geoseries, expression
 
 ### filenames must contain KEY4:
 gensp.strain.gnm.[.ann].KEY4.[...]
+
+### gene_models_main.gff3 must have ID and/or Name attributes in every record
+1. If ONLY ID present, then it must be an LIS conformant ID: gensp.strain.gnm.ann.ShortName.
+2. If Name is also present, then it can be ShortName and the mine loader will ignore ID and prepend the full yuck to Name for the primaryIdentifier.
+3. A third option is to set primaryIdentifier=ID and secondaryIdentifier=Name with a loader option.
