@@ -10,3 +10,7 @@ gensp.strain.gnm.[.ann].KEY4.[...]
 1. If ONLY ID present, then it must be an LIS conformant ID: gensp.strain.gnm.ann.ShortName.
 2. If Name is also present, then it can be ShortName and the mine loader will ignore ID and prepend the full yuck to Name for the primaryIdentifier.
 3. A third option is to set primaryIdentifier=ID and secondaryIdentifier=Name with a loader option.
+
+### transcript FASTA files use transcript, not mrna, suffix
+- WRONG: glyso.F_IGA1003.gnm1.ann1.G61B.mrna.fna.gz
+- CORRECT: glyso.F_IGA1003.gnm1.ann1.G61B.transcript.fna.gz
