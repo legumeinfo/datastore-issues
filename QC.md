@@ -1,9 +1,9 @@
 ## QC
 
 ### YAML in general
-- no tab characters
-- quotes around values containing ":" and other YAML-relevant characters, including line breaks
-- ADD TO THIS LIST
+- do not use tab characters anywhere
+- place quotes around values containing ":" and other YAML-relevant characters, including line breaks
+- separate documents within a file (e.g. strains descriptions file) with **---**, not **###** or something else
 
 ### README.yaml:
 - fields may be _none_ other than:
