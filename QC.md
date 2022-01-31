@@ -12,6 +12,7 @@ gensp.strain.gnm.[.ann].KEY4.[...]
 - fields may be _none_ other than:
 scientific_name_abbrev, license, publication_title, taxid, geoseries, expression_unit, dataset_release_date, related_to, bioproject, data_curators, synopsis, genotype, source, local_file_creation_date, provenance, identifier, keywords, publication_doi, citations, genbank_accession, dataset_doi, contributors, original_file_creation_date, description, public_access_level, scientific_name, genotyping_method, sraproject, genotyping_platform
 - identifier must be full name of collection (e.g. **PI483463.gnm1.ann1.3Q3Q**, not just **3Q3Q**)
+- content shared between READMEs must be **identical**: for example, if a publication is in a genomic README and an annotation README, the publication titles must match exactly.
 
 ### gene_models_main.gff3
 - must have ID and/or Name attributes in every record
