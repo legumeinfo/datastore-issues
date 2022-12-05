@@ -30,3 +30,4 @@ What are the collection types and names? Example:
 - [ ] Incorporate into GCV 
 - [ ] Update the jekyll collections listing 
 - [ ] Update browser configs
+- [ ] run BUSCO
