@@ -19,7 +19,7 @@ What are the collection types and names? Example:
 - Lens/culinaris/genomes/CDC_Redberry.gnm2.7C5P 
 - Lens/culinaris/annotations/CDC_Redberry.gnm2.ann1.5FB4
 
-- [ ] Add collection(s) to the Data Store
+- [ ] Add collection(s) to the Data Store, including commits to datastore-metadata
 - [ ] Validate the README(s)
 - [ ] Update about_this_collection.yml
 - [ ] Calculate AHRD functional annotations 
@@ -31,3 +31,5 @@ What are the collection types and names? Example:
 - [ ] Update the jekyll collections listing 
 - [ ] Update browser configs
 - [ ] run BUSCO
+- [ ] Update DSCensor
+- [ ] Add LINKOUTS to datastore, refresh linkout service
